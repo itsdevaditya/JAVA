@@ -6,9 +6,9 @@ public class pattern11 {
             for (int j = 1; j <= (n - i); j++) {
                 System.out.print(" ");
             }
-            int m = (2*i-1);
+            int m = (2*i)-1;
             for (int j = 1; j <= m; j++) {
-                if (i == j || i == m || j == m || j ==i)
+                if ( i == m || j == m  || j == 1)
                     System.out.print(i);
                 else
                     System.out.print(" ");
