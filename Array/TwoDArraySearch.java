@@ -2,7 +2,7 @@ package JAVA.Array;
 
 import java.util.Scanner;
 
-public class Array_2d {
+public class TwoDArraySearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int rows = sc.nextInt();
@@ -14,13 +14,16 @@ public class Array_2d {
                 numbers[i][j] = sc.nextInt();
             }
         }
+        System.out.println("Enter the number which you want to search : ");
+        int x = sc.nextInt();
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < colms; j++) {
-                System.out.print(numbers[i][j] + " ");
+                if (numbers[i][j] == x) {
+                    System.out.println("Index of " + x + " is : [" + i + "," + j + "]");
+
+                }
             }
-            System.out.println();
         }
     }
-
 }
