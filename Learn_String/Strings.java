@@ -11,6 +11,10 @@ public class Strings {
         System.out.println("Your namer is : " + first_name + " " + last_name);
         // Length function
         System.out.println((first_name + " " + last_name).length());
+        //  charAt
+        for(int i = 0 ; i < first_name.length() ; i ++){
+            System.out.println(first_name.charAt(i));
+        }
         
     }
 
