@@ -15,7 +15,17 @@ public class Strings {
         for(int i = 0 ; i < first_name.length() ; i ++){
             System.out.println(first_name.charAt(i));
         }
+        // String1.compareTo(String2)
+        // if s1 < s2 = +ve
+        // if s1 == s2 = 0
+        // if s1 - s2 = -ve
         
+        if (first_name.compareTo(last_name) == 0) {
+            System.out.println("First name and last name is equal ");
+            
+        }
+        else
+        System.out.println("First name and last name are not equal ");
     }
 
 }
