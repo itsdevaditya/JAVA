@@ -7,5 +7,9 @@ public class Stringbulders {
         // insert function
         sb.insert(0, "Radha");
         System.out.println(sb);
+        // append function
+        sb.append(" Govinda");
+        System.out.println(sb);
+
     }
 }
