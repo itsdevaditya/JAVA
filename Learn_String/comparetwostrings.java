@@ -15,3 +15,6 @@ public class comparetwostrings {
         System.out.println("Strings first and third are equal: " + result2);
     }
 }
+
+
+
