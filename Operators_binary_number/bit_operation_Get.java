@@ -1,6 +1,6 @@
 package Operators_binary_number;
 
-public class bit_operation {
+public class bit_operation_Get {
     public static void main(String[] args) {
         int num = 5;
         int pos = 2;
