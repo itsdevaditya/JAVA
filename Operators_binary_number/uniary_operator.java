@@ -8,7 +8,7 @@ public class uniary_operator {
         b = a++;
         System.out.println(a);
         System.out.println(b);
-        // pre increment
+        // pre increment 
         b = ++a;
         System.out.println(a);
         System.out.println(b);
