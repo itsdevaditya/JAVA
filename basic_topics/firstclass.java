@@ -1,3 +1,4 @@
+package basic_topics;
 class firstclass{
     // function void main()
     public static void main(String args[]){

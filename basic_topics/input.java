@@ -1,3 +1,4 @@
+package basic_topics;
 import java.util.*;
 
 public class input {
