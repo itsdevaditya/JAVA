@@ -1,6 +1,6 @@
 package Shorting;
 
-public class bubble_Short {
+public class bubble_Sort {
     public static void printArray(int arry[]) {
         for (int i = 0; i < arry.length; i++) {
             System.out.print(arry[i] + " ");
