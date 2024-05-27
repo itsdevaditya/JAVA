@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Array_2d {
     public static void main(String[] args) {
+        // Learn to create and show 2D Array
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of rows : ");
         int rows = sc.nextInt();
@@ -13,7 +14,7 @@ public class Array_2d {
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < colms; j++) {
-                System.out.print("Enter ("+i + ", " +j+ ") : ");
+                System.out.print("Enter (" + i + ", " + j + ") : ");
                 numbers[i][j] = sc.nextInt();
             }
         }
