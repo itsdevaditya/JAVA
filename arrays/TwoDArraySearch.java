@@ -18,7 +18,7 @@ public class TwoDArraySearch {
                 numbers[i][j] = sc.nextInt();
             }
         }
-        System.out.println("Enter the number which you want to search : ");
+        System.out.print("Enter the number which you want to search : ");
         int x = sc.nextInt();
 
         for (int i = 0; i < rows; i++) {
@@ -31,3 +31,7 @@ public class TwoDArraySearch {
         }
     }
 }
+
+
+
+
