@@ -15,3 +15,8 @@ public class bit_operation_Get {
         System.out.println("bit was 1 ");
     }
 }
+
+
+
+
+
