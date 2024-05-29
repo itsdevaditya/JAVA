@@ -12,7 +12,7 @@ public class bubble_Sort {
         System.out.println("Unshorted array : ");
         printArray(arry);
         System.out.println();
-        // bubble sort 
+        // bubble sort
         // time complexity -- o(n^2)
         for (int i = 0; i < arry.length - 1; i++) {
             for (int j = 0; j < (arry.length - i - 1); j++) {
@@ -28,3 +28,14 @@ public class bubble_Sort {
         printArray(arry);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
