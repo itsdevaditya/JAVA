@@ -15,6 +15,10 @@ public class insertion_sort {
 
         for ( int i = 0 ; i < arr.length ; i++)
         {
-            int current = i;
+            int current = arr[i];
+            int j = i -1;
+            while (j > = 0 && current ) {
+                
+            }
         }
 }
