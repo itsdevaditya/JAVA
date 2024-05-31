@@ -12,5 +12,9 @@ public class insertion_sort {
         int[] arr = { 4, 2, 5, 27, 1 };
         System.out.println("unsorted array : ");
         printArray(arr);}
-  
+
+        for ( int i = 0 ; i < arr.length ; i++)
+        {
+            int current = i;
+        }
 }
