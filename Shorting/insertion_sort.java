@@ -5,12 +5,9 @@ public class insertion_sort {
         for (int i = 0; i < arry.length; i++) {
             System.out.print(arry[i] + " ");
         }
-
     }
-
     public static void main(String[] args) {
-        // sorting using selection sort
-
+        // sorting using insertion sort
         int[] arr = { 4, 2, 5, 27, 1 };
         System.out.println("unsorted array : ");
         printArray(arr);
@@ -23,10 +20,13 @@ public class insertion_sort {
             }
             // placement
             arr[j + 1] = current;
-
         }
         System.out.println();
         System.out.println("Shorted array by using insertion sort  ");
         printArray(arr);
     }
 }
+
+
+
+

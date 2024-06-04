@@ -16,7 +16,12 @@ public class print_number {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter any number : ");
         int n = sc.nextInt();
-
+        System.out.println("print number in reverse order by using recursion ");
         print_num(n);
     }
 }
+
+
+
+
+
