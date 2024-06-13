@@ -15,16 +15,7 @@ public class merge_sort {
         // sorting using merge sort
         int[] arr = { 4, 2, 5, 27, 1 };
         System.out.println("unsorted array : ");
-        for (int i ; i < arr.length ;  i ++ ){
-            if (arr.length) {
-                int mid = arr.length;
-            }
-            else{
-                mid = 
-            }
-            
-            int []newstr = 
-        }
+
         printArray(arr);
     }
 }
