@@ -9,6 +9,7 @@ public class input {
         int sum = a + b;
         // String name = sc.nextLine();
         System.out.println(sum);
+       
     }
     
 }
