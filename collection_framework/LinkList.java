@@ -1,8 +1,6 @@
 package collection_framework;
-
 public class LinkList {
     Node head;
-
     class Node {
         String data;
         Node next;
@@ -12,7 +10,6 @@ public class LinkList {
             this.next = null;
         }
     }
-
     // add first
     public void addFirst(String data) {
         Node newnode = new Node(data);
@@ -35,6 +32,27 @@ public class LinkList {
             currNode = currNode.next;
         }
         currNode.next = newnode;
+    }
+    // Reverse linklist 
+    public void revrlinklist(){
+        if(head == null || head.next == null ){
+            return;
+            
+        }
+        Node previousNode = head;
+        Node currNode = previousNode.next;
+
+        while(currNode != null){
+            Node nextNode = currNode.next;
+            currNode.next = previousNode;
+
+            previousNode = currNode;
+            currNode = nextNode;
+
+        }
+        head.next = null;
+        head = previousNode;
+
     }
 
     // print linklist
@@ -59,6 +77,8 @@ public class LinkList {
         list.addFirst("this");
         list.addlast("list");
         list.addFirst("link");
+        list.printlinklist();
+        list.revrlinklist();
         list.printlinklist();
 
     }
