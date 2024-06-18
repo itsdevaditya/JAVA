@@ -1,10 +1,10 @@
 package collection_framework;
 
 import java.util.*;
-import java.util.Scanner;
 
 public class linklist_frame {
     public static void main(String[] args) {
+        @SuppressWarnings({ "rawtypes", "unchecked" })
         LinkedList<Integer> list = new LinkedList();
         //  first problem
         
