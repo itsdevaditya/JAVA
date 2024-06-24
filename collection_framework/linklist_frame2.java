@@ -1,7 +1,5 @@
 package collection_framework;
-
 import java.util.*;
-
 public class linklist_frame2 {
     public static void main(String[] args) {
         @SuppressWarnings({ "unchecked", "rawtypes" })
@@ -28,3 +26,8 @@ public class linklist_frame2 {
         System.out.println(list);
     }
 }
+
+
+
+
+
