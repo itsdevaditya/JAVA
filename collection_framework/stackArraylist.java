@@ -1,20 +1,15 @@
 package collection_framework;
-
 import java.util.*;
-
 public class stackArraylist {
     static class stack {
         static ArrayList<Integer> list = new ArrayList<>();
-
         public static boolean isempty() {
             return list.size() == 0;
         }
-
         // push
         public void push(int data) {
             list.add(data);
         }
-
         // push
         public int pop() {
             if (isempty()) {
@@ -24,17 +19,14 @@ public class stackArraylist {
             list.remove(list.size()-1);
             return top;
         }
-
         // peek
         public int peek() {
             if (isempty()) {
                 return -1;
             }
             return list.get(list.size()-1);
-
         }
     }
-
     public static void main(String[] args) {
         stack s = new stack();
         s.push(1);

@@ -1,29 +1,21 @@
 package collection_framework;
-
 public class stack {
     static Node head;
-
     static class Node {
         int data;
         Node next;
-
         public Node(int data) {
             this.data = data;
             this.next = null;
         }
-
     }
-
     static class stacknum {
         public static boolean isempty() {
 
             return head == null;
         }
-
         public void push(int data) {
-
             Node newnode = new Node(data);
-
             if (isempty()) {
                 head = newnode;
                 return;
@@ -31,7 +23,6 @@ public class stack {
             newnode.next = head;
             head = newnode;
         }
-
         public int pop() {
             if (isempty()) {
                 return -1;
@@ -40,7 +31,7 @@ public class stack {
             head = head.next;
             return top;
         }
-        public int peek(){
+        public int peek() {
             if (isempty()) {
                 return -1;
             }
@@ -58,7 +49,7 @@ public class stack {
         while (!s.isempty()) {
             System.out.println(s.peek());
             s.pop();
-            
+
         }
     }
 
