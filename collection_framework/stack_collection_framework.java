@@ -2,7 +2,6 @@ package collection_framework;
 import java.util.*;
 public class stack_collection_framework {
     public static void main(String[] args) {
-        
     
     Stack<Integer> list = new Stack<>();
     list.push(1);
