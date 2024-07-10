@@ -46,7 +46,7 @@ public class stack {
         s.push(3);
         s.push(4);
 
-        while (!s.isempty()) {
+        while (!stacknum.isempty()) {
             System.out.println(s.peek());
             s.pop();
 
